@@ -146,9 +146,60 @@ body {
     -o-transform: scale(1.1);
   }
 }    */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 1275px) {
+  .clock-body{
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .clock-body{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 940px) {
+  .clock-body{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 810px) {
+  .clock-body{
+    width: 55%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .clock-body{
+    width: 65%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .clock-body{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .clock-body{
+    width: 85%;
+  }
+}
+@media screen and (max-width: 435px) {
+  .clock-body{
+    width: 95%;
+    margin-top: 80px;
+    height: 65vh;
+  }
+  #clock h1 {
+
+    font-weight: 400 !important;
+  }
+  #clock h1 {
+    font-size: 2rem;
+    height: 80% !important
+  }
   .input-boxes {
     flex-direction: column;
     width: 100%;
+    /* background-color: red; */
+    height: 120px;
   }
 }
+
